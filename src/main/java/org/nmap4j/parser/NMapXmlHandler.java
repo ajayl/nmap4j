@@ -274,7 +274,7 @@ public class NMapXmlHandler extends DefaultHandler {
 		}
 		if(qName.equals(Trace.TRACE_TAG)) {
 			trace = runHandler.createTrace(attributes);
-			host.setTrace(trace);
+			//host.setTrace(trace);
 		}
 		if(qName.equals(Hop.HOP_TAG)) {
 			hop = runHandler.createHop(attributes);
